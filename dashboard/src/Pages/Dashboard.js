@@ -44,7 +44,7 @@ const DashboardTable = () => {
   };
   return (
     <div className="table">
-      <h1 className="title">Dashboard Table</h1>
+      <h1 className="title">Employee List</h1>
       <table className="table-content">
         <thead>
           <tr>{renderHeader()}</tr>
