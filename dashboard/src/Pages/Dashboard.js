@@ -30,7 +30,7 @@ const DashboardTable = () => {
       dashboardData?.user &&
       dashboardData.user.map(({ id, name, age, gender, email, phoneNo }) => {
         return (
-          <tr key={id}>
+          <tr>
             <td>{id}</td>
             <td>{name}</td>
             <td>{age}</td>
